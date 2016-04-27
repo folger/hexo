@@ -11,11 +11,13 @@ KEY_WOW64_64KEY
 KEY_WOW64_32KEY
 ```
 可以应用的函数包括：
-```
-RegCreateKeyEx
-RegDeleteKeyEx
-RegOpenKeyEx
-```
+[RegCreateKeyEx][2]
+[RegDeleteKeyEx][3]
+[RegOpenKeyEx][4]
+
 MSDN：[Accessing an Alternate Registry View][1]
 
 [1]:http://msdn.microsoft.com/en-us/library/windows/desktop/aa384129(v=vs.85).aspx
+[2]:https://msdn.microsoft.com/en-us/library/windows/desktop/ms724844(v=vs.85).aspx
+[3]:https://msdn.microsoft.com/en-us/library/windows/desktop/ms724847(v=vs.85).aspx
+[4]:https://msdn.microsoft.com/en-us/library/windows/desktop/ms724897(v=vs.85).aspx
