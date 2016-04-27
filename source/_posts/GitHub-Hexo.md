@@ -2,6 +2,8 @@
 title: GitHub + Hexo
 date: 2016-04-26 15:56:46
 tags:
+  - GitHub
+  - Hexo
 ---
 
 ### 一篇好文章
