@@ -10,15 +10,19 @@ tags:
 
 ### 重点步骤
 
-- 安装[node.js](http://nodejs.org)
+- 安装 [node.js](http://nodejs.org)
 - 运行以下命令准备好hexo
+    ```bash
     npm install -g cnpm --registry=https://registry.npm.taobao.org
     npm install hexo-cli -g
     npm install hexo --save
     npm install hexo-deployer-git --save
-- hexo init或者git clone已有的[hexo repo](https://github.com/folger/hexo)
+    ```
+- hexo init或者git clone已有的 [hexo repo](https://github.com/folger/hexo)
 - 主要的hexo命令
+    ```bash
     hexo new
     hexo server
     hexo generate
     hexo deploy
+    ```

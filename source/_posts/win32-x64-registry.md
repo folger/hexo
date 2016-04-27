@@ -4,16 +4,16 @@ date: 2016-04-26 14:32:42
 tags:
 ---
 本来以为64位Windows下，32位app只能访问32位注册表键值，64位app只能访问64位，原来可以很简单地通过以下两个flag来实现互通：
-
-    KEY_WOW64_64KEY
-    KEY_WOW64_32KEY
-
+```
+KEY_WOW64_64KEY
+KEY_WOW64_32KEY
+```
 可以应用的函数包括：
-
-	RegCreateKeyEx
-	RegDeleteKeyEx
-	RegOpenKeyEx
-
+```
+RegCreateKeyEx
+RegDeleteKeyEx
+RegOpenKeyEx
+```
 MSDN：[Accessing an Alternate Registry View][1]
 
 [1]:http://msdn.microsoft.com/en-us/library/windows/desktop/aa384129(v=vs.85).aspx
