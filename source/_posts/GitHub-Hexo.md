@@ -6,9 +6,10 @@ tags:
   - Hexo
 ---
 
-### 一篇好文章
+### 好文章
 
 [使用GitHub和Hexo搭建免费静态Blog](http://wsgzao.github.io/post/hexo-guide/)
+[关于 Hexo 的若干问题](http://bubkoo.com/2013/12/16/hexo-issure/)
 
 ### 重点步骤
 
