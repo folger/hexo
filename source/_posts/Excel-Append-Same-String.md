@@ -6,4 +6,4 @@ tags: Excel
 
 添加相同的字符串到Excel单位格其实非常简单，如下图：
 
-![Excel](excel.gif)
+![Excel](Excel-Append-Same-String/excel.gif)
