@@ -20,6 +20,7 @@ tags:
     npm install hexo-cli -g
     npm install hexo --save
     npm install hexo-deployer-git --save
+    npm install https://github.com/CodeFalling/hexo-asset-image --save
     ```
 - hexo init或者git clone已有的 [hexo repo](https://github.com/folger/hexo)
 - 主要的hexo命令
